@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact me page</title>
+    <meta name="description" content="contact me page with form to fil out" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet" />
+
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <label class="hamburger-icon" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+      <input type="checkbox" id="hamburger-menu" />
+      <nav class="nav mobile-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="contact.html" class="onpage">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="contact-grid">
+      <h1>Fill in the form under to contact me</h1>
+      <section>
+        <form method="POST" class="contact-form">
+          <div>
+            <label for="Name">Your Name</label>
+            <input type="text" id="name" placeholder="Fill in your name" />
+            <div class="nameError">Please fill in a correct name</div>
+          </div>
+          <div>
+            <label for="E-mail">E-mail address</label>
+            <input type="text" id="email" placeholder="Fill in your e-mail" />
+            <div class="emailError">Please fill in a valid email address</div>
+          </div>
+          <div>
+            <label for="subject">Subject of your problem</label>
+            <input type="text" id="subject" placeholder="Subject" />
+            <div class="subjectError">Subject too short</div>
+          </div>
+          <div>
+            <label for="Explain-subject">Messagefield</label>
+            <textarea id="explainSubject"></textarea>
+            <div class="explainError">Enter a minimum of 25 characters</div>
+          </div>
+          <div>
+            <button class="form-btn">Submit</button>
+          </div>
+          <div class="succesful-message"></div>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <div>
+        <h5><a href="contact.html">Contact:</a></h5>
+        <p>Fill inn the contact form on the contact page to reach me.</p>
+      </div>
+      <div>
+        <h5><a href="about.html">About:</a></h5>
+        <p>This is a training blog where i write and post about my workouts.</p>
+      </div>
+      <div>
+        <h5>Following my methods:</h5>
+        <p>For the workouts you try them out by your self and contact me with the contact form on the contact page.</p>
+      </div>
+    </footer>
+    <script src="js/contact.js"></script>
+  </body>
+</html>
