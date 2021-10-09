@@ -115,11 +115,11 @@ footer p {
 .clickleft:hover {
   background-color: green;
 }
-.clickright {
-  float: right;
-}
 .clickleft {
   float: left;
+}
+.clickright {
+  float: right;
 }
 .contact-grid {
   display: grid;
