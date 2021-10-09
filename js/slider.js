@@ -24,6 +24,7 @@ function frontpageHtml(objects) {
 
     newContent += `
     
+          
     <a href="singleblog.html?id=${objects[index].id}">
     
     

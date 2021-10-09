@@ -115,7 +115,12 @@ footer p {
 .clickleft:hover {
   background-color: green;
 }
-
+.clickright {
+  float: right;
+}
+.clickleft {
+  float: left;
+}
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -274,7 +279,7 @@ form input {
   min-width: 100%;
   left: 0px;
   border-radius: 10px 10px;
-  transition: all 1s;
+  transition: all 0.5s;
   padding: 10px;
   height: 800px;
   opacity: 1;
